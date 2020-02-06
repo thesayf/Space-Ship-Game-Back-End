@@ -33,9 +33,9 @@ default: &default
 
 development:
   <<: *default
-  database: GossApp
+  database: SpaceshipGame
 
 test:
   <<: *default
-  database: GossApp
+  database: SpaceshipGame
 
